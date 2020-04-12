@@ -1,10 +1,10 @@
 ---
-order: 11
+order: 1
 
 title: "Accordion Simulator"
 excerpt: "OLV VR Game prototype"
 
-categories: [xr,vr,game]
+#categories: [xr,vr,game]
 
 header:
   teaser: /assets/images/portfolio/olv/accordionsimulator/teaser0.png

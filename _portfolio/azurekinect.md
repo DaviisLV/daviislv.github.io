@@ -1,9 +1,9 @@
 ---
-order: 17
+order: 2
 
 title: "Azure Kinect Body Tracking"
 excerpt: "OLV Azure kinect body tracking experiments"
-categories: [xr,ar]
+#categories: [xr,ar]
 
 header:
   teaser: /assets/images/portfolio/olv/azurekinect/teaser.png
