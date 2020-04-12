@@ -1,0 +1,21 @@
+---
+layout: archive
+---
+{% assign atDirStyle = 'style="display: inline-block;padding: 10px 16px;background-color:black;"' %}
+{% assign nonDirStyle = 'style="display: inline-block;padding: 10px 16px;"' %}
+
+<ul style="list-style-type: none; margin: 0;padding: 0; overflow: hidden;">
+
+  {% if page.url == filter[0] %}
+  <li style="float: left;"><a href="{{ filter[0] }}" {{atDirStyle}}>{{ filter[1] }}</a></li>
+  {% else %}
+  <li style="float: left;"><a href="{{ filter[0] }}" {{nonDirStyle}}>{{ filter[1] }}</a></li>
+  {% endif %}
+
+</ul>
+
+{{ content }}
+
+<div class="entries-{{ page.entries_layout }}">
+  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>

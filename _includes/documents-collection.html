@@ -1,0 +1,5 @@
+{% assign entries =  site[include.collection] | where: "categories",page.categories | sort: "order" %}
+
+{%- for post in entries -%}
+  {% include archive-single.html %}
+{%- endfor -%}
