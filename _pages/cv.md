@@ -38,7 +38,7 @@ header:
 <!-- <iframe src="https://docs.google.com/file/d/0B8aGkJVsdqiJamVpUnJ1TDlFbFU/preview" width="100%" height="100%"></iframe>    -->
 <object data="/assets/pdf/CV_Davis_Abols.pdf" width="100%" height="100%" type='application/pdf'>
     <p>Your browser doesn't support this feature.</p>
-    <a href="myfile.pdf">Download PDF Instead.</a>
+    <a href="/assets/pdf/CV_Davis_Abols.pdf">Download PDF Instead.</a>
   <objct/>
 <!-- you can [get the PDF]({{ site.url }}assets/pdf/CV_Davis_Abols.pdf) directly -->
 {% include feature_row %}
